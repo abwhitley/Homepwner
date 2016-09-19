@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ItemsViewController.h
 //  HomePwner
 //
 //  Created by Austins Work on 9/18/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ItemStore;
 
-@interface ViewController : UIViewController
-
-
+@interface ItemsViewController : UITableViewController
+@property (nonatomic) ItemStore *itemStore;
 @end
-
